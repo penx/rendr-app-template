@@ -21,8 +21,7 @@ exports.config = {
     },
     'projects': {
       type: 'static',
-      host: 'test.org',
-      protocol: 'https'
+      datapath: 'projects'
     }
   },
 
