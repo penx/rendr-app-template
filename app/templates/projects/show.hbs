@@ -1,1 +1,19 @@
-Test project show
+<h1>{{name}}</h1>
+
+<p><strong>Client: </strong>{{clients}}</p>
+<p><strong>Role: </strong>{{role}}</p>
+<p><strong>Key tasks/technologies: </strong>{{key-tasks}}</p>
+
+{{paragraphSplit description}}
+
+
+
+
+{{#each images}}<img src="/images/projects/{{id}}/{{this}}"> {{/each}}
+
+<p>{{#each tags}}{{#if @index}},{{/if}} <a href="/projects/tags/{{this}}">{{this}}</a>{{/each}}</p>
+
+<ul>{{#each urls}}<li><a href="{{this}}">{{this}}</a></li>{{/each}}</ul>
+
+<p>{{date}}</p>
+ 

@@ -1,7 +1,7 @@
 var Base = require('./base');
 
 module.exports = Base.extend({
-  url: '/projects/:name',
+  url: '/:name',
   idAttribute: 'name',
   api: 'projects'
 });

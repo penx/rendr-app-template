@@ -1,4 +1,4 @@
-<h1>Projects</h1>
+<h1>Portfolio</h1>
 
 <ul>
 {{#each models}}
@@ -9,13 +9,8 @@
 
   	</a>
   	<ul>
-		{{#each tags}}
-  			<li>
-  				<a href="/projects/tags/{{this}}">
-					{{this}}
-				</a>
-			</li>
-		{{/each}}
+		{{#each tags}}{{#if @index}},{{/if}}
+  			<a href="/projects/tags/{{this}}">{{this}}</a>{{/each}}
 	</ul>
   </li>
 {{/each}}

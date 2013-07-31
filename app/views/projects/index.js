@@ -10,5 +10,3 @@ module.exports = BaseView.extend({
   // }
 });
 module.exports.id = 'projects/index';
-
-console.log('test projects');

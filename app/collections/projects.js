@@ -3,7 +3,7 @@ var Project = require('../models/project')
 
 module.exports = Base.extend({
   model: Project,
-  url: '/projects',
+  url: '/',
   api: 'projects'
 });
 module.exports.id = 'Projects';

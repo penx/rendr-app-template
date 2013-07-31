@@ -6,6 +6,11 @@ module.exports = function(Handlebars) {
   return {
     copyright: function(year) {
       return new Handlebars.SafeString("&copy;" + year);
+    },
+    paragraphSplit: function(plaintext) {
+      return new Handlebars.SafeString(
+      	'<p>' + plaintext.split('\n').join('</p><p>') + '</p>'
+	  );
     }
   };
 };

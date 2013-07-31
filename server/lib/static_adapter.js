@@ -4,7 +4,7 @@ var utils = require('rendr/server/utils'),
   request = require('request'),
   debug = require('debug')('app:StaticAdapter'),
   inspect = require('util').inspect;
- 
+  
 module.exports = StaticAdapter;
  
 function StaticAdapter(options) {
@@ -32,6 +32,18 @@ StaticAdapter.prototype.request = function(req, api, options, callback) {
   //get static data from local json files, using path variable
   body = require('../data/' + this.options[api.api].datapath + '.json');
   
+  if(api.path && api.path.split("/").length > 1 && api.path.split("/")[1].length > 0) {
+    var child, childId = api.path.split("/")[1];
+
+    for(var i = 0, m = null; i < body.length; ++i) {
+      if(body[i].id != childId) {
+          continue;        
+      }
+      child = body[i];
+      break;
+    }
+    body = child;
+  }
   response.body = body;
 
   callback(err, response, body);

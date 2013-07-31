@@ -1,13 +1,314 @@
 [
-	{
-		"id"		:	"datsun",
-		"name"		:	"Datsun.com",
-		"date"		:	"June 2013",
-		"clients" 	: ["AKQA", "Datsun", "Nissan"],
-		"role"		: "Senior Web Developer",
-		"key-technologies": ["jQuery", "HTML", "CSS", "ASP.NET", "Razor", "Grunt"],
-		"html-content" : "",
-		"images" : ["1.jpg", "2.jpg"],
-		"tags" : ["Developer"]
-	}
+  {
+    "id": "datsun",
+    "name": "Datsun.com",
+    "date": "June 2013",
+    "clients": [
+      "Datsun",
+      "Nissan",
+      "AKQA"
+    ],
+    "role": "Senior Web Developer",
+    "key-tasks": [
+      "jQuery",
+      "HTML",
+      "CSS",
+      "ASP.NET",
+      "Razor",
+      "Grunt"
+    ],
+    "description": "Development of the Datsun's first website, relaunching the Datsun brand in July 2013.",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ]
+  },
+  {
+    "id": "we-own-the-night",
+    "name": "We Own The Night",
+    "date": "March 2013",
+    "clients": [
+      "Nike",
+      "AKQA"
+    ],
+    "role": "Senior Web Developer",
+    "key-tasks": [
+      "jQuery",
+      "JSP",
+      "JSTL",
+      "HTML",
+      "CSS"
+    ],
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ]
+  },
+  {
+    "id": "tip-exchange",
+    "name": "The Tip Exchange",
+    "date": "January 2013",
+    "clients": [
+      "Vanish (Reckitt Benckiser)",
+      "Havas Worldwide London"
+    ],
+    "role": "Senior Web Developer",
+    "key-tasks": [
+      "Canvas animation (paper.js and jQuery)",
+      "Django",
+      "Facebook API"
+    ],
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ]
+  },
+  {
+    "id": "hue",
+    "name": "Hue Developer Documentation",
+    "date": "June 2013",
+    "clients": [
+      "Philips",
+      "iris Worldwide"
+    ],
+    "role": "Technical Consultant",
+    "key-tasks": [
+      "Writing documentation and examples for an embedded web service",
+      "JavaScript",
+      "jQuery",
+      "REST web service"
+    ],
+    "description": "In October 2012 I was asked to provide documentation for Philip's Hue. The system consists of a set of light bulbs that can be controlled by a central 'bridge' - the bridge connects to the user's network and allows anyone with a basic knowledge of programming to control various aspects of the bulbs, including brightness, colour and scheduling. \n The documentation I wrote was aimed at Philip's customers who wanted to create custom code, e.g. to integrate the bulbs with other home automation software. \n Several code examples, written in JavaScript, were also written to accompany the documentation, e.g. connecting to Yahoo's Weather API and colouring the bulbs according to the current weather.",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Technical Lead"
+    ]
+  },
+  {
+    "id": "unforgettable-swims",
+    "name": "Unforgettable Swims",
+    "date": "2011",
+    "clients": [
+      "Speedo",
+      "iris Worldwide"
+    ],
+    "role": "Deputy Technical Director",
+    "key-tasks": [
+      "Initial concepts and feasibility reviews",
+      "specification",
+      "time estimation and budgeting",
+      "presenting to the client",
+      "ASP.Net CMS review and selection",
+      "planning and briefing developers",
+      "technical support and oversight during build"
+    ],
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Technical Lead"
+    ]
+  },
+  {
+    "id": "chelsea-kit-launch",
+    "name": "Chelsea Kit Launch",
+    "date": "May 2010",
+    "clients": [
+      "Adidas",
+      "Chelsea FC",
+      "iris Worldwide"
+    ],
+    "role": "Deputy Technical Director",
+    "key-tasks": [
+      "Partner selection",
+      "specification",
+      "time estimation",
+      "design and UX review",
+      "concept and feasibility reviews"
+    ],
+    "description": "2010/2011 (100% Chelsea) and 2011/2012 (all blues) kit launches for Adidas and Chelsea F.C.",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Technical Lead"
+    ]
+  },
+  {
+    "id": "insider",
+    "name": "Insider",
+    "date": "2010",
+    "clients": [
+      "Sony Ericsson",
+      "iris Worldwide"
+    ],
+    "role": "Technical Lead",
+    "key-tasks": [
+      "Planning and managing rearchitecture of a large site",
+      "developing processes to allow multiple projects (with multiple project managers) to be run concurrently using a central code base and servers"
+    ],
+    "description": "By 2010, a site that I had written had massively grown in scale and was seeing up to 3 projects in concurrent development with seperate development teams working within the same code base. Such a scale required a complex deployment and testing process to ensure the teams did not impact each other's deliveries. \n In addition, significant new functionality was planned that required reworking the underlying code for the site. \n I managed a team of up to 6 developers in producing the new content (running scrums, working on database architecture, assigning tasks) and produced development and deployment processes that would allow other workstreams with minimal impact to the overall stability of the site.",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Technical Lead",
+      "Developer"
+    ]
+  },
+  {
+    "id": "every-drop",
+    "name": "Get the most out of every drop",
+    "date": "June 2013",
+    "clients": [
+      "Shell",
+      "iris Worldwide"
+    ],
+    "role": "Lead ASP.Net and front end developer",
+    "key-tasks": [
+      "Development of a bespoke multilingual API and administration system",
+      "C# ASP.Net",
+      "MSSQL",
+      "JavaScript/jQuery",
+      "XHTML 1.1",
+      "CSS2",
+      "nested MasterPages",
+      "load balanced server configuration and management"
+    ],
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ]
+  },
+  {
+    "id": "designated-driver",
+    "name": "Designated Driver",
+    "date": "December 2008, 2009 and 2010",
+    "clients": [
+      "Coca-Cola",
+      "iris Worldwide"
+    ],
+    "role": "Lead ASP.Net and front end developer (2008, 2009 and 2010)",
+    "key-tasks": [
+      "JavaScript/jQuery",
+      "Google Maps integration",
+      "C# ASP.Net",
+      "XHTML 1.1",
+      "CSS2"
+    ],
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ]
+  },
+  {
+    "id": "adopt-a-monkey",
+    "name": "Adopt a Monkey",
+    "date": "June 2013",
+    "clients": [
+      "Kellogg's",
+      "iris Worldwide"
+    ],
+    "role": "Lead ASP.Net and front end developer",
+    "key-tasks": [
+      "C# ASP.Net",
+      "server-side PDF generation with iText (adoption certificate)",
+      "MSSQL",
+      "JavaScript/jQuery",
+      "XHTML 1.1",
+      "CSS2",
+      "nested MasterPages."
+    ],
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ]
+  },
+  {
+    "id": "connect",
+    "name": "Connect by Hertz",
+    "date": "September 2008",
+    "clients": [
+      "Hertz",
+      "iris Worldwide"
+    ],
+    "role": "ASP.Net and front end developer",
+    "key-tasks": [
+      "C# ASP.Net",
+      "MSSQL",
+      "JavaScript/jQuery",
+      "XHTML 1.1",
+      "CSS2",
+      "nested MasterPages."
+    ],
+    "description": "I was part of a team of up to 7 developers creating the first web front end for Hertz Connect (initially known as Car Club). This was mainly C# ASP.Net development, though there was also significant JavaScript work for both Google Maps integration and tracking, along with assisting the front end developer with some HTML/CSS.",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ],
+    "urls": [
+      "http://news.bbc.co.uk/1/hi/business/7783233.stm"
+    ]
+  },
+  {
+    "id": "blueroom",
+    "name": "Blueroom",
+    "date": "2007",
+    "clients": [
+      "O2",
+      "Archibald Ingall Stretton"
+    ],
+    "role": "Lead ASP.Net and front end developer",
+    "key-tasks": [
+      "C# ASP.Net",
+      "MSSQL",
+      "JavaScript/jQuery",
+      "XHTML 1.1",
+      "CSS2",
+      "nested MasterPages",
+      "load balanced server configuration and management"
+    ],
+    "description": "Throughout 2007 and 2008 I was the lead developer on O2's customer focussed portal \"blueroom\", now known as O2 Priority. With new content being added several times a week and new microsites being launched every few weeks, the site had to be easy add new pages and very flexible. Microsites were frequent and varied - many included user generated content such as mp3 uploads (allowing undiscovered artists win funding from O2) and image galleries. When I started on the project there were two parts to the site, one set of code in JSP and another in ASP.Net. My tasks involved getting the two sites to work well together, e.g. sharing navigation elements without the need to duplicate code between the two projects. I subsequently led the development of a new version, including an ASP.Net master site and a template ASP.Net solution for microsites that pulled in common elements from the master site.",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "tags": [
+      "Developer"
+    ],
+    "urls": [
+      "http://www.o2priority.co.uk"
+    ]
+  }
 ]
