@@ -2,8 +2,21 @@
 
 <ul>
 {{#each models}}
-  <li> 
-  	{{name}}
+  <li>
+  	<a href="/projects/{{id}}">
+  		<img src="/images/projects/{{id}}.png" />
+  		{{name}}
+
+  	</a>
+  	<ul>
+		{{#each tags}}
+  			<li>
+  				<a href="/projects/tags/{{this}}">
+					{{this}}
+				</a>
+			</li>
+		{{/each}}
+	</ul>
   </li>
 {{/each}}
 </ul>

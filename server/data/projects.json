@@ -1,1 +1,13 @@
-[{"name":"test1"}, {"name":"test2"}, {"name":"test3"}]
+[
+	{
+		"id"		:	"datsun",
+		"name"		:	"Datsun.com",
+		"date"		:	"June 2013",
+		"clients" 	: ["AKQA", "Datsun", "Nissan"],
+		"role"		: "Senior Web Developer",
+		"key-technologies": ["jQuery", "HTML", "CSS", "ASP.NET", "Razor", "Grunt"],
+		"html-content" : "",
+		"images" : ["1.jpg", "2.jpg"],
+		"tags" : ["Developer"]
+	}
+]
