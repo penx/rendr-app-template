@@ -2,7 +2,7 @@ var express = require('express'),
     rendr = require('rendr'),
     env = require('./server/lib/env'),
     mw = require('./server/middleware'),
-    RestAdapter = require('rendr/server/data_adapter/rest_adapter'),
+    DataAdapter = require('./server/lib/data_adapter_router'),
     app,
     server;
 
@@ -41,7 +41,7 @@ function initMiddleware() {
  */
 function initServer() {
   var options = {
-    dataAdapter: new RestAdapter(env.current.api),
+    dataAdapter: new DataAdapter(env.current.api),
     errorHandler: mw.errorHandler(),
     appData: env.current.rendrApp
   };

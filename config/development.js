@@ -18,6 +18,11 @@ exports.config = {
     'travis-ci': {
       host: 'api.travis-ci.org',
       protocol: 'https'
+    },
+    'projects': {
+      type: 'static',
+      host: 'test.org',
+      protocol: 'https'
     }
   },
 
