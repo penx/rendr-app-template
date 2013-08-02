@@ -8,3 +8,7 @@ config/development.js
 config/production.js
 
 *.sublime-workspace
+
+config/development.js
+
+config/production.js
