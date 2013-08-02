@@ -1,9 +1,9 @@
 var Base = require('./base');
 
 module.exports = Base.extend({
-  url: '/:name',
+  url: '/projects/:name',
   idAttribute: 'name',
-  api: 'projects'
+  api: 'static'
 });
 module.exports.id = 'Project';
  

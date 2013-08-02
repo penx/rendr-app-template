@@ -19,9 +19,8 @@ exports.config = {
       host: 'api.travis-ci.org',
       protocol: 'https'
     },
-    'projects': {
-      type: 'static',
-      datapath: 'projects'
+    'static': {
+      type: 'static'
     }
   },
 

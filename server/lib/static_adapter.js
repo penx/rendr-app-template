@@ -29,11 +29,15 @@ StaticAdapter.prototype.request = function(req, api, options, callback) {
     options = {};
   }
 
-  //get static data from local json files, using path variable
-  body = require('../data/' + this.options[api.api].datapath + '.json');
+  if(!api.path  || api.path.split("/").length < 1 || api.path.charAt(0) != "/" || api.path.split("/")[1].length == 0) {
+    throw new Error("Missing or incorrect path parameter");
+  }
+
+  //get static data from local json files, using first dir in path variable
+  body = require('../data/' + api.path.split("/")[1] + '.json');
   
-  if(api.path && api.path.split("/").length > 1 && api.path.split("/")[1].length > 0) {
-    var child, childId = api.path.split("/")[1];
+  if(api.path.split("/").length > 2 && api.path.split("/")[2].length > 0) {
+    var child, childId = api.path.split("/")[2];
 
     for(var i = 0, m = null; i < body.length; ++i) {
       if(body[i].id != childId) {
