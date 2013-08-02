@@ -1,17 +1,19 @@
-<h1>Portfolio</h1>
+<div id="template-projects-index">
+  <h1>Portfolio</h1>
 
-<ul>
-{{#each models}}
-  <li>
-  	<a href="/projects/{{id}}">
-  		<img src="/images/projects/{{id}}.png" />
-  		{{name}}
+  <ul>
+  {{#each models}}
+    <li>
+    	<a href="/projects/{{id}}">
+    		<img src="/images/projects/{{id}}.png" />
+    		{{name}}
 
-  	</a>
-  	<ul>
-		{{#each tags}}{{#if @index}},{{/if}}
-  			<a href="/projects/tags/{{this}}">{{this}}</a>{{/each}}
-	</ul>
-  </li>
-{{/each}}
-</ul>
+    	</a>
+    	<div class="tags">
+  		{{#each tags}}{{#if @index}},{{/if}}
+    			<a href="/projects/tags/{{this}}">{{this}}</a>{{/each}}
+  	  </div>
+    </li>
+  {{/each}}
+  </ul>
+</div>

@@ -19,11 +19,15 @@
     ],
     "description": "Development of the Datsun's first website, relaunching the Datsun brand in July 2013.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "countdown-mid.png",
+      "countdown-top.png",
+      "mobile.png"
     ],
     "tags": [
       "Developer"
+    ],
+    "urls": [
+      "http://www.datsun.com"
     ]
   },
   {
@@ -42,14 +46,25 @@
       "HTML",
       "CSS"
     ],
-    "description": "",
+    "description": "A responsive, multilingual website enabling users to register for one of several 10km races across Europe, and an accompanying set of 6 week training programs that monitor a user's progress by linking to their Nike+ account. \n A results site was also produced.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "registration-de.png",
+      "registration-en.png",
+      "registration-join.png",
+      "registration-login.png",
+      "results-en.png",
+      "results-it.png",
+      "results-mobile.png",
+      "results-table-thin.png"
     ],
     "tags": [
       "Developer"
+    ],
+    "urls": [
+      "https://womens10k.nikeapp.com/weownthenightberlin/en_GB",
+      "http://womens10kresults.nikeapp.com/weownthenightlondon/en_GB"
     ]
+
   },
   {
     "id": "tip-exchange",
@@ -65,13 +80,16 @@
       "Django",
       "Facebook API"
     ],
-    "description": "",
+    "description": "A Facebook application and mobile website that allows users to exchange and discuss tips for removing stains.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "tip-exchange.png",
+      "tip-exchange-mobile.png"
     ],
     "tags": [
       "Developer"
+    ],
+    "urls": [
+      "http://tipexchange.vanish.co.uk"
     ]
   },
   {
@@ -91,11 +109,17 @@
     ],
     "description": "In October 2012 I was asked to provide documentation for Philip's Hue. The system consists of a set of light bulbs that can be controlled by a central 'bridge' - the bridge connects to the user's network and allows anyone with a basic knowledge of programming to control various aspects of the bulbs, including brightness, colour and scheduling. \n The documentation I wrote was aimed at Philip's customers who wanted to create custom code, e.g. to integrate the bulbs with other home automation software. \n Several code examples, written in JavaScript, were also written to accompany the documentation, e.g. connecting to Yahoo's Weather API and colouring the bulbs according to the current weather.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "hue1-big.jpg",
+      "documentation-intro.png",
+      "documentation-groups.png"
     ],
     "tags": [
       "Technical Lead"
+    ],
+    "urls": [
+      "http://developers.meethue.com",
+      "http://arstechnica.com/gadgets/2012/11/in-living-color-ars-reviews-the-hacker-approved-philips-hue-leds/",
+      "http://www.meethue.com"
     ]
   },
   {
@@ -117,8 +141,7 @@
       "technical support and oversight during build"
     ],
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "shot1.jpg"
     ],
     "tags": [
       "Technical Lead"
@@ -143,8 +166,8 @@
     ],
     "description": "2010/2011 (100% Chelsea) and 2011/2012 (all blues) kit launches for Adidas and Chelsea F.C.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "allblues1.jpg",
+      "chelsea1.jpg"
     ],
     "tags": [
       "Technical Lead"
@@ -165,8 +188,9 @@
     ],
     "description": "By 2010, a site that I had written had massively grown in scale and was seeing up to 3 projects in concurrent development with seperate development teams working within the same code base. Such a scale required a complex deployment and testing process to ensure the teams did not impact each other's deliveries. \n In addition, significant new functionality was planned that required reworking the underlying code for the site. \n I managed a team of up to 6 developers in producing the new content (running scrums, working on database architecture, assigning tasks) and produced development and deployment processes that would allow other workstreams with minimal impact to the overall stability of the site.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "insider-architecture.gif",
+      "insider-compare.png",
+      "insider-testing.png"
     ],
     "tags": [
       "Technical Lead",
@@ -193,8 +217,10 @@
       "load balanced server configuration and management"
     ],
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "everydrop-flash-home.jpg",
+      "everydrop-fuelsave.jpg",
+      "everydrop-journey.jpg",
+      "everydrop-logos.jpg"
     ],
     "tags": [
       "Developer"
@@ -218,8 +244,7 @@
     ],
     "description": "",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "cokezone-designated-driver.jpg"
     ],
     "tags": [
       "Developer"
@@ -245,8 +270,7 @@
     ],
     "description": "",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "monkey1.jpg"
     ],
     "tags": [
       "Developer"
@@ -271,8 +295,7 @@
     ],
     "description": "I was part of a team of up to 7 developers creating the first web front end for Hertz Connect (initially known as Car Club). This was mainly C# ASP.Net development, though there was also significant JavaScript work for both Google Maps integration and tracking, along with assisting the front end developer with some HTML/CSS.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "connect-by-hertz.jpg"
     ],
     "tags": [
       "Developer"
@@ -301,8 +324,9 @@
     ],
     "description": "Throughout 2007 and 2008 I was the lead developer on O2's customer focussed portal \"blueroom\", now known as O2 Priority. With new content being added several times a week and new microsites being launched every few weeks, the site had to be easy add new pages and very flexible. Microsites were frequent and varied - many included user generated content such as mp3 uploads (allowing undiscovered artists win funding from O2) and image galleries. When I started on the project there were two parts to the site, one set of code in JSP and another in ASP.Net. My tasks involved getting the two sites to work well together, e.g. sharing navigation elements without the need to duplicate code between the two projects. I subsequently led the development of a new version, including an ASP.Net master site and a template ASP.Net solution for microsites that pulled in common elements from the master site.",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "fives.jpg",
+      "undiscovered.jpg",
+      "version4.png"
     ],
     "tags": [
       "Developer"
