@@ -3,14 +3,14 @@
 exports.config = {
   assets: {
     minify: false,
-    cdn: {
+    cdn: { 
       protocol: 'http',
       cnames: ['localhost'],
       pathPrefix: ''
     }
   },
 
-  api: {
+  api: { 
     'default': {
       host: 'api.github.com',
       protocol: 'https'
