@@ -1,6 +1,6 @@
 {
-  "name": "rendr-app-template",
-  "version": "0.1.6",
+  "name": "www.mcleay.com",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/airbnb/rendr-app-template.git"
+    "url": "git://github.com/penx/www.mcleay.com.git"
   },
   "dependencies": {
     "express": "~>3",
@@ -18,7 +18,8 @@
     "request": "~2.16",
     "rendr-handlebars": "0.0.5",
     "rendr": "0.5.0-alpha01",
-    "debug": "*"
+    "debug": "*",
+    "linkedin-js": "0.1.4"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

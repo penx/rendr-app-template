@@ -8,6 +8,8 @@ var utils = require('rendr/server/utils'),
     RestAdapter = require('rendr/server/data_adapter/rest_adapter'),
     StaticAdapter = require('./static_adapter'),
     MongoDBAdapter = require('./mongodb_adapter'),
+    LinkedInAdapter = require('./linkedin_adapter'),
+    
     ra, sa, ma;
 
 module.exports = DataAdapterRouter;
@@ -16,6 +18,7 @@ function DataAdapterRouter(options) {
   ra = new RestAdapter(options);
   sa = new StaticAdapter(options);
   ma = new MongoDBAdapter(options);
+  la = new LinkedInAdapter(options);
   DataAdapterBase.call(this, options);
 }
 
@@ -32,6 +35,8 @@ DataAdapterRouter.prototype.request = function(req, api, options, callback) {
         return sa.request.apply(sa, arguments);
       case "mongodb":
         return ma.request.apply(ma, arguments);
+      case "linkedin":
+        return la.request.apply(la, arguments);
       default:
         throw new Exception('Implement me!');
     }
