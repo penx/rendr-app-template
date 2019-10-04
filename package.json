@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --ui bdd --reporter spec  ./test --recursive",
-    "start": "DEBUG=app:* node index.js"
+    "start": "DEBUG=app:* node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,8 @@
     "rendr-handlebars": "0.0.5",
     "rendr": "0.5.0-alpha01",
     "debug": "*",
-    "linkedin-js": "0.1.4"
+    "linkedin-js": "0.1.4",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -33,5 +36,6 @@
   },
   "engines": {
     "node": ">=0.8"
-  }
+  },
+  "snyk": true
 }
