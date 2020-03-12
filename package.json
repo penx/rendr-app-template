@@ -12,7 +12,7 @@
     "url": "git://github.com/penx/www.mcleay.com.git"
   },
   "dependencies": {
-    "express": "~>3",
+    "express": "~4.0.0",
     "underscore": "~1.4.4",
     "async": "~0.1.22",
     "request": "~2.16",
